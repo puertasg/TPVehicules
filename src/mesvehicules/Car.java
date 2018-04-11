@@ -17,5 +17,8 @@ public class Car extends AbstractVehicule{
     public Car()
     {
         super();
+        this.volessence = 0;
+        this.puissance = 0;
+        this.co = 0;
     }
 }
