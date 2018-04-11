@@ -14,6 +14,7 @@ public class Bike extends AbstractVehicule{
     public Bike()
     {
         super();
+        type = EnumType.VI;
     }
     
     public void move()
