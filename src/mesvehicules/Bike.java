@@ -10,7 +10,7 @@ package mesvehicules;
  * @author diginamic05
  */
 public class Bike extends AbstractVehicule{
-    EnumType type;
+    private EnumType type;
     public Bike()
     {
         //Appel au constructeur de AbstractVehicule
@@ -23,5 +23,13 @@ public class Bike extends AbstractVehicule{
     public void move()
     {
         
+    }
+
+    public EnumType getType() {
+        return type;
+    }
+
+    public void setType(EnumType type) {
+        this.type = type;
     }
 }
