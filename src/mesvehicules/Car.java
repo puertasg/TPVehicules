@@ -22,4 +22,28 @@ public class Car extends AbstractVehicule{
         this.puissance = 0;
         this.co = 0;
     }
+
+    public float getVolessence() {
+        return volessence;
+    }
+
+    public void setVolessence(float volessence) {
+        this.volessence = volessence;
+    }
+
+    public int getPuissance() {
+        return puissance;
+    }
+
+    public void setPuissance(int puissance) {
+        this.puissance = puissance;
+    }
+
+    public float getCo() {
+        return co;
+    }
+
+    public void setCo(float co) {
+        this.co = co;
+    }
 }
