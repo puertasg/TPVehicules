@@ -16,6 +16,7 @@ public class Car extends AbstractVehicule{
     
     public Car()
     {
+        //Appel au constructeur de AbstractVehicule
         super();
         this.volessence = 0;
         this.puissance = 0;

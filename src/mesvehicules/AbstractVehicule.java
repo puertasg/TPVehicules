@@ -18,7 +18,7 @@ public abstract class AbstractVehicule implements Vehicule {
     private float dirEst;
     
     private int poids;
-    private String couleur;
+    private EnumCouleur couleur;
     private String marque;
     private String modele;
     
@@ -33,7 +33,7 @@ public abstract class AbstractVehicule implements Vehicule {
         this.dirEst = 0;
         
         this.poids = 0;
-        this.couleur = "";
+        this.couleur = EnumCouleur.RO;
         this.marque = "";
         this.modele = "";
     }
